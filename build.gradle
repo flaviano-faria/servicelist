@@ -1,0 +1,26 @@
+apply plugin: 'java'
+
+repositories { 
+    mavenCentral() 
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+	implementation group: 'com.sun.jersey', name: 'jersey-server', version: '1.19.4'
+	implementation group: 'com.sun.jersey', name: 'jersey-json', version: '1.12'
+	implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.13'
+	implementation group: 'com.sun.jersey', name: 'jersey-servlet', version: '1.18'
+	implementation group: 'com.sun.jersey', name: 'jersey-json', version: '1.12'
+	implementation group: 'com.sun.jersey', name: 'jersey-bundle', version: '1.19.4'
+	
+}
+
+sourceSets {
+    apt{
+        java{
+            srcDir 'src'
+        }
+    }
+}
