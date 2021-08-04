@@ -2,8 +2,10 @@
 
 Retorna uma lista de transações, conforme os parâmetros informados:
 
-Content-type: application/json
-
+Requisição [GET] <id>/transacoes/<ano>/<mes>
+  
+Resposta:
+  
 Content-type: application/json
 
 [
@@ -15,3 +17,12 @@ Content-type: application/json
      
   }
 ]
+
+  Para fazer o build da aplicação:
+  
+  1) Entrar no diretório do projeto
+  2) Na linha de comando: Executar o "gradle build".
+  
+  Deploy da aplicação:
+  1) Enviar o pacote .war gerado anteriormente para a pasta webappps (tomcat).
+  2) Executar o catalina.sh
