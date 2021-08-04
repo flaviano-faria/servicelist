@@ -2,7 +2,8 @@
 
 Retorna uma lista de transações, conforme os parâmetros informados:
 
-Requisição [GET] <id>/transacoes/<ano>/<mes>
+Requisição :
+[GET] <id>/transacoes/<ano>/<mes>
   
 Resposta:
   
