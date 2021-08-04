@@ -1,4 +1,4 @@
-# service-list
+# servicelist
 
 Retorna uma lista de transações, conforme os parâmetros informados no path da requisição
 
