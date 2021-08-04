@@ -3,7 +3,7 @@
 Retorna uma lista de transações, conforme os parâmetros informados:
 
 Requisição :
-[GET] <id>/transacoes/<ano>/<mes>
+Executar uma requisição GET no path: {id}/transacoes/{ano}/{mes}
   
 Resposta:
   
