@@ -18,7 +18,6 @@ dependencies {
 	
 }
 
-
 war {
     from('bin/apt') {
         into 'WEB-INF/classes/'
